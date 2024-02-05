@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+     <style>
+        body{  
+             font-family: Calibri;  
+             background-color: yellow; 
+            }  
+            .inpfields,textarea 
+            {  
+             width: 80%;  
+             padding: 15px;  
+             margin: 5px 0 22px 0;  
+             display: inline-block; 
+             border: none;  
+             background: #f1f1f1;  
+             font-family: Cambria;
+            } 
+            form
+            {
+             width: 30%;
+             padding: 50px;
+             border-radius: 10px;
+             margin: auto;
+            }
+            #registerbtn
+            {
+              background-color:#008000;
+              color:white;
+              padding:16px 20px;
+              margin:8px 0;
+              border:none;
+              cursor:pointer;
+              width:90%;
+              opacity:0.9;
+            }            
+     </style>
+    </head>
+    <body>
+        <form>
+           <h1><center>Registration Form</center></h1>
+           Name:
+           <br>
+           <input type-="text" class="inpfields"><br>
+           Email:
+           <br>
+           <input type="email" class="inpfields"><br> 
+           Password:
+           <br>
+           <input type="password" class="inpfields"><br>
+           Mobile Number:
+           <br>
+           <input type="number" class="inpfields"><br>
+           Date of Birth:
+           <br>
+                      <input type="date" class="inpfields"><br><br>
+           Select city:
+                    Delhi<input type="checkbox" name="">
+                    Mumbai<input type="checkbox" name="">
+                    kolkata<input type="checkbox" name=""> <br><br>
+                    
+           Gender:
+                        Male<input type="radio" name="status">
+                        Female<input type="radio" name="status"><br><br>
+
+           Address:
+           <br>
+            <textarea row="5" cols="80">Enter the Address</textarea><br>
+           Select Course:
+                      <select>
+                         <option>C programming</option>
+                         <option>PHP</option>
+                         <option>HTML</option>
+                         <option>CSS</option>
+                         <option>JAVA</option>
+                      </select>   <br>             
+
+           <input type="submit" value="Register" id="registerbtn">
+        </form>
+    </body>
+</html>
